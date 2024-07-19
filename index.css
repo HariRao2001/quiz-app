@@ -61,3 +61,16 @@ button:hover,#restart_btn:hover{
     margin-top:20px;
     cursor:pointer;
 }
+
+
+@media(min-width:720px){
+    #quiz-content{
+        width:90%;
+    }
+}
+
+@media(max-width:420px){
+    #quiz-content{
+        width:70%;
+    }
+}
